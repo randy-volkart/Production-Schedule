@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProductionScheduleDataSet" targetNamespace="http://tempuri.org/ProductionScheduleDataSet.xsd" xmlns:mstns="http://tempuri.org/ProductionScheduleDataSet.xsd" xmlns="http://tempuri.org/ProductionScheduleDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProductionScheduleDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ProductionScheduleDataSet" msprop:Generator_UserDSName="ProductionScheduleDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ProductionScheduleData" msprop:Generator_TableClassName="ProductionScheduleDataDataTable" msprop:Generator_TableVarName="tableProductionScheduleData" msprop:Generator_TablePropName="ProductionScheduleData" msprop:Generator_RowDeletingName="ProductionScheduleDataRowDeleting" msprop:Generator_RowChangingName="ProductionScheduleDataRowChanging" msprop:Generator_RowEvHandlerName="ProductionScheduleDataRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductionScheduleDataRowDeleted" msprop:Generator_UserTableName="ProductionScheduleData" msprop:Generator_RowChangedName="ProductionScheduleDataRowChanged" msprop:Generator_RowEvArgName="ProductionScheduleDataRowChangeEvent" msprop:Generator_RowClassName="ProductionScheduleDataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WorkOrderNo" msprop:Generator_ColumnVarNameInTable="columnWorkOrderNo" msprop:Generator_ColumnPropNameInRow="WorkOrderNo" msprop:Generator_ColumnPropNameInTable="WorkOrderNoColumn" msprop:Generator_UserColumnName="WorkOrderNo" type="xs:int" minOccurs="0" />
+              <xs:element name="ProductionType" msprop:Generator_ColumnVarNameInTable="columnProductionType" msprop:Generator_ColumnPropNameInRow="ProductionType" msprop:Generator_ColumnPropNameInTable="ProductionTypeColumn" msprop:Generator_UserColumnName="ProductionType" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductWarehouse" msprop:Generator_ColumnVarNameInTable="columnProductWarehouse" msprop:Generator_ColumnPropNameInRow="ProductWarehouse" msprop:Generator_ColumnPropNameInTable="ProductWarehouseColumn" msprop:Generator_UserColumnName="ProductWarehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductNumber" msprop:Generator_ColumnVarNameInTable="columnProductNumber" msprop:Generator_ColumnPropNameInRow="ProductNumber" msprop:Generator_ColumnPropNameInTable="ProductNumberColumn" msprop:Generator_UserColumnName="ProductNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductDescription" msprop:Generator_ColumnVarNameInTable="columnProductDescription" msprop:Generator_ColumnPropNameInRow="ProductDescription" msprop:Generator_ColumnPropNameInTable="ProductDescriptionColumn" msprop:Generator_UserColumnName="ProductDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="PlannedUOM" msprop:Generator_ColumnVarNameInTable="columnPlannedUOM" msprop:Generator_ColumnPropNameInRow="PlannedUOM" msprop:Generator_ColumnPropNameInTable="PlannedUOMColumn" msprop:Generator_UserColumnName="PlannedUOM" type="xs:string" minOccurs="0" />
+              <xs:element name="PlannedQuantity" msprop:Generator_ColumnVarNameInTable="columnPlannedQuantity" msprop:Generator_ColumnPropNameInRow="PlannedQuantity" msprop:Generator_ColumnPropNameInTable="PlannedQuantityColumn" msprop:Generator_UserColumnName="PlannedQuantity" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PlannedDate" msprop:Generator_ColumnVarNameInTable="columnPlannedDate" msprop:Generator_ColumnPropNameInRow="PlannedDate" msprop:Generator_ColumnPropNameInTable="PlannedDateColumn" msprop:Generator_UserColumnName="PlannedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PlannedShift" msprop:Generator_ColumnVarNameInTable="columnPlannedShift" msprop:Generator_ColumnPropNameInRow="PlannedShift" msprop:Generator_ColumnPropNameInTable="PlannedShiftColumn" msprop:Generator_UserColumnName="PlannedShift" type="xs:string" minOccurs="0" />
+              <xs:element name="FGWODate" msprop:Generator_ColumnVarNameInTable="columnFGWODate" msprop:Generator_ColumnPropNameInRow="FGWODate" msprop:Generator_ColumnPropNameInTable="FGWODateColumn" msprop:Generator_UserColumnName="FGWODate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ShipmentDate" msprop:Generator_ColumnVarNameInTable="columnShipmentDate" msprop:Generator_ColumnPropNameInRow="ShipmentDate" msprop:Generator_ColumnPropNameInTable="ShipmentDateColumn" msprop:Generator_UserColumnName="ShipmentDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NoBatches" msprop:Generator_ColumnVarNameInTable="columnNoBatches" msprop:Generator_ColumnPropNameInRow="NoBatches" msprop:Generator_ColumnPropNameInTable="NoBatchesColumn" msprop:Generator_UserColumnName="NoBatches" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CustomerOrderNo" msprop:Generator_ColumnVarNameInTable="columnCustomerOrderNo" msprop:Generator_ColumnPropNameInRow="CustomerOrderNo" msprop:Generator_ColumnPropNameInTable="CustomerOrderNoColumn" msprop:Generator_UserColumnName="CustomerOrderNo" type="xs:string" minOccurs="0" />
+              <xs:element name="FGWorkOrderNo" msprop:Generator_ColumnVarNameInTable="columnFGWorkOrderNo" msprop:Generator_ColumnPropNameInRow="FGWorkOrderNo" msprop:Generator_ColumnPropNameInTable="FGWorkOrderNoColumn" msprop:Generator_UserColumnName="FGWorkOrderNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="ActualMftQty" msprop:Generator_ColumnVarNameInTable="columnActualMftQty" msprop:Generator_ColumnPropNameInRow="ActualMftQty" msprop:Generator_ColumnPropNameInTable="ActualMftQtyColumn" msprop:Generator_UserColumnName="ActualMftQty" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ActualDate" msprop:Generator_ColumnVarNameInTable="columnActualDate" msprop:Generator_ColumnPropNameInRow="ActualDate" msprop:Generator_ColumnPropNameInTable="ActualDateColumn" msprop:Generator_UserColumnName="ActualDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActualShift" msprop:Generator_ColumnVarNameInTable="columnActualShift" msprop:Generator_ColumnPropNameInRow="ActualShift" msprop:Generator_ColumnPropNameInTable="ActualShiftColumn" msprop:Generator_UserColumnName="ActualShift" type="xs:string" minOccurs="0" />
+              <xs:element name="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" msprop:Generator_UserColumnName="Percentage" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

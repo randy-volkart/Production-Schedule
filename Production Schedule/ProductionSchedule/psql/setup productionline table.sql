@@ -1,0 +1,7 @@
+create table PS_PRODUCTIONLINE (
+Code VARCHAR(20) PRIMARY KEY,
+Description VARCHAR(50),
+Capacity INTEGER, 
+UOM VARCHAR(20)
+
+)
