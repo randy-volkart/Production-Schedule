@@ -2,7 +2,9 @@
 A snapsot of a current project I am working on intended as a portfolio coding demo. See the README for more details.
 
 STACK: Visual Studios, C#, SQL/ODBC, Crystal Reports
+
 AUTHOR: Randy Volkart (randy.volkart@outlook.com)
+
 DATE: 2019-07-18
 
 PURPOSE
